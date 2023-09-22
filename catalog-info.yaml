@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "eks-apr-base"
   annotations:
-    github.com/project-slug: 
+    github.com/project-slug: teste
     backstage.io/techdocs-ref: dir:.
     github.com/workflows: terraform-deploy.yml,terraform-destroy.yml
 spec:
