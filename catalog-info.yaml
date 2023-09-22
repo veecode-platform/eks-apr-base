@@ -4,9 +4,9 @@ metadata:
   name: "eks-apr-base"
   annotations:
     github.com/project-slug: veecode-platform/eks-apr-base
-    backstage.io/techdocs-ref: dir:.
     github.com/workflows: terraform-deploy.yml,terraform-destroy.yml
+    backstage.io/techdocs-ref: dir:.
 spec:
-  type: devops
+  type: service
   lifecycle: experimental
   owner: "group:default/admin"
